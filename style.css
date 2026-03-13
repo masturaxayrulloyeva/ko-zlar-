@@ -33,6 +33,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.9s ease;
 }
 
 /* Harakatlanuvchi sharlar */
