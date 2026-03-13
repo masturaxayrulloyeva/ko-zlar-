@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: black;
+    gap: 40px;
+}
+
+.kozlar {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 30px #f5f5f5 inset;
+}
+
+.koz {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    border: 7px solid #8B4A00;
+    box-shadow: 0px 0px 30px burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Harakatlanuvchi sharlar */
+/* .aylana {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid deepskyblue;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.102s ease-in;
+    opacity: 0;
+}
+
+.nuqta {
+    width: 10px;
+    height: 10px;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform 0.1s ease;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255, 0.6);
+    opacity: 0;
+} */
